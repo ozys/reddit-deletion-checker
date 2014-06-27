@@ -7,7 +7,7 @@ from datetime import datetime
 # Whoever is running the bot, put your reddit username here.
 # This is important for following the API rules.
 # More info here: https://github.com/reddit/reddit/wiki/API
-bot_operator = ""
+bot_operator = "syzo_"
 longtail = False # "True" if you want to watch the top 1000 instead of the top 100.
 
 def get_json(url):
@@ -160,7 +160,7 @@ if __name__ == "__main__":
             for post in posts[0:number_to_watch]:
                 add_to_watched(conn, c, post)
 
-        print("Sleeping for 5 minutes.")
-        # Wait 5 minutes; nothing is likely to change in this time.
-        # Please don't change this to anything lower.
-        time.sleep(5*60)
+            print("Sleeping for 5 minutes.")
+            # Wait 5 minutes; nothing is likely to change in this time.
+            # Please don't change this to anything lower.
+            time.sleep(5*60)
