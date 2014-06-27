@@ -12,7 +12,7 @@ longtail = False # "True" if you want to watch the top 1000 instead of the top 1
 
 def get_json(url):
     while True:
-        header_dictionary = {"User-agent": "Post deletion checker v0.1 operated by /u/" + bot_operator}
+        header_dictionary = {"User-agent": "Post deletion checker v0.2 operated by /u/" + bot_operator}
         try:
             url_handle = urllib.request.urlopen(urllib.request.Request(url, headers=header_dictionary))
             url_data = url_handle.read()
