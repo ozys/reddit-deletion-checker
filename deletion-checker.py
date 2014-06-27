@@ -7,7 +7,7 @@ from datetime import datetime
 # Whoever is running the bot, put your reddit username here.
 # This is important for following the API rules.
 # More info here: https://github.com/reddit/reddit/wiki/API
-bot_operator = "syzo_"
+bot_operator = ""
 longtail = False # "True" if you want to watch the top 1000 instead of the top 100.
 
 def get_json(url):
